@@ -1,0 +1,9 @@
+SDK_2_9_0_EVK-MCIMX7ULP/
+images/
+documentation/BSP/Linux/*
+!documentation/BSP/Linux/L2.6.31_10.05.02_ER_docs.tar.gz
+src/armgcc/CMakeFiles
+src/armgcc/debug
+src/pin_mux.c
+.vscode/.cortex-debug.registers.state.json
+.vscode/.cortex-debug.peripherals.state.json
