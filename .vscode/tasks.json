@@ -4,9 +4,29 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build",
+            "label": "buildM4IMX",
             "type": "shell",
             "command": "cd src/armgcc;./build_debug.bat",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "buildM4STM",
+            "type": "shell",
+            "command": "cd stm32nucleo/spi/;make",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "flashM4STM",
+            "type": "shell",
+            "command": "cd stm32nucleo/spi/;STM32_Programmer_CLI  -c port=swd -w build/spi.bin 0x08008000",
             "group": {
                 "kind": "build",
                 "isDefault": true
