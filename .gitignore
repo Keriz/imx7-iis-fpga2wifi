@@ -7,3 +7,4 @@ src/armgcc/debug
 src/pin_mux.c
 .vscode/.cortex-debug.registers.state.json
 .vscode/.cortex-debug.peripherals.state.json
+stm32nucleo/spi/build/*
