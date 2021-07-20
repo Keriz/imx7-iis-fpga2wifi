@@ -14,7 +14,7 @@ DISCLAIMER: the setup has been tested on Windows.
 
 The vendor (NXP) does not provide a SDK compatible with MCUXpresso IDE. To debug/flash the IMX7 Cortex-M4 processor without having to go through the tedious process of using u-boot to flash the image through QSPI, we prepared a tailored custom toolchain. Users don't need to copy the image on the SD Card to run their program but rather can use J-LINK.
 
-[Firstly, follow the procedure given by NXP to install armgcc](https://github.com/NXPmicro/mcux-sdk/blob/main/docs/run_a_project_using_armgcc.md)
+Firstly, follow the [procedure](https://github.com/NXPmicro/mcux-sdk/blob/main/docs/run_a_project_using_armgcc.md) given by NXP to install armgcc.
 
 Then, the user should install [Visual Studio Code](https://code.visualstudio.com/) (latest version) and the Cortex Debug extension on VSCode. ![Cortex Debug](readme-images/cortex.png)
 
@@ -52,7 +52,7 @@ Connect the JTAG 20 pin connector on the EVK to JLINK. Power the JLink adapter. 
 
 ### Execute code on STM32-Nucleo-MB1136 using STLINK (on-board debugger)
 
-Connect the STM32 board through USB. Build the STM32 FW using the task provided in the VS Workspace. Press F5 and run STM32 Cortex-M4 DEbug configuration. 
+Connect the STM32 board through USB. Build the STM32 FW using the task provided in the VS Workspace. Press F5 and run STM32 Cortex-M4 Debug configuration. 
 
 ## Documentation
 
