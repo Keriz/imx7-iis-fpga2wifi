@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Cortex-M4 Debug",
+            "name": "IMX7ULP Cortex-M4 Debug",
             "cwd": "${workspaceRoot}",
             "executable": "./src/armgcc/debug/freertos_hello.elf",
             "request": "launch",
@@ -23,6 +23,16 @@
                 "load",
                 "monitor go",
             ],
+        },
+        {
+            "name": "STM32 Cortex-M4 Debug",
+            "cwd": "${workspaceRoot}/stm32nucleo",
+            "executable": "./spi/build/spi.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "stlink",
+            "device": "STM32F072RB",
+            "v1": false
         }
     ]
 }
