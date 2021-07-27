@@ -5,6 +5,13 @@
 		}
 	],
 	"settings": {
-		"git.ignoreLimitWarning": true
+		"git.ignoreLimitWarning": true,
+		"files.associations": {
+			"board.h": "c",
+			"main.h": "c",
+			"stm32f0xx_hal.h": "c",
+			"fsl_flexio_spi.h": "c",
+			"fsl_common.h": "c"
+		}
 	}
 }

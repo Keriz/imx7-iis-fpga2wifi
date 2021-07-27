@@ -7,7 +7,7 @@
         {
             "name": "IMX7ULP Cortex-M4 Debug",
             "cwd": "${workspaceRoot}",
-            "executable": "./src/armgcc/debug/freertos_hello.elf",
+            "executable": "./src/armgcc/debug/flexio_spi_edma_lpspi_transfer_master.elf",
             "request": "launch",
             "type": "cortex-debug",
             "servertype": "jlink",
@@ -16,13 +16,22 @@
             "ipAddress": null,
             "serialNumber": null,
             "overrideLaunchCommands": [
-                "-enable-pretty-printing",
-                "set remotetimeout 15",
+                //"-enable-pretty-printing",
+                //"set remotetimeout 15",
                 "monitor reset ",
                 "monitor halt",
                 "load",
                 "monitor go",
+                /*"mon clrbp",
+                "mon halt",
+                "mon memU32 0x3039000C 0xAC",
+                "eval \"monitor memU32 0x00180000 %p\", &__stack",
+                "eval \"monitor memU32 0x00180004 %p\", &Reset_Handler + 1",
+                "mon memU32 0xE000EDFC 0x01000001",
+                "mon memU32 0x3039000C 0xAA", */
             ],
+            "runToMain": true,
+            "svdFile": "./src/MCIMX7U5_M4.svd"
         },
         {
             "name": "STM32 Cortex-M4 Debug",
