@@ -110,647 +110,512 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named freertos_hello.elf
+# Target rules for targets named flexio_spi_edma_lpspi_transfer_slave.elf
 
 # Build rule for target.
-freertos_hello.elf: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 freertos_hello.elf
-.PHONY : freertos_hello.elf
+flexio_spi_edma_lpspi_transfer_slave.elf: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 flexio_spi_edma_lpspi_transfer_slave.elf
+.PHONY : flexio_spi_edma_lpspi_transfer_slave.elf
 
 # fast build rule for target.
-freertos_hello.elf/fast:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/build
-.PHONY : freertos_hello.elf/fast
+flexio_spi_edma_lpspi_transfer_slave.elf/fast:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/build
+.PHONY : flexio_spi_edma_lpspi_transfer_slave.elf/fast
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.obj: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.c.obj
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.obj: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.c.obj
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.obj
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.obj
 
 # target to build an object file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.c.obj:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.c.obj
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.c.obj
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.c.obj:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.c.obj
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.c.obj
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.i: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.c.i
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.i: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.c.i
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.i
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.i
 
 # target to preprocess a source file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.c.i:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.c.i
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.c.i
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.c.i:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.c.i
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.c.i
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.s: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.c.s
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.s: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.c.s
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.s
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.s
 
 # target to generate assembly for a file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.c.s:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.c.s
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.c.s
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.c.s:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.c.s
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.c.s
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/serial_manager/fsl_component_serial_manager.obj: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/serial_manager/fsl_component_serial_manager.c.obj
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.obj: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.c.obj
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/serial_manager/fsl_component_serial_manager.obj
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.obj
 
 # target to build an object file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/serial_manager/fsl_component_serial_manager.c.obj:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/serial_manager/fsl_component_serial_manager.c.obj
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/serial_manager/fsl_component_serial_manager.c.obj
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.c.obj:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.c.obj
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.c.obj
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/serial_manager/fsl_component_serial_manager.i: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/serial_manager/fsl_component_serial_manager.c.i
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.i: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.c.i
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/serial_manager/fsl_component_serial_manager.i
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.i
 
 # target to preprocess a source file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/serial_manager/fsl_component_serial_manager.c.i:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/serial_manager/fsl_component_serial_manager.c.i
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/serial_manager/fsl_component_serial_manager.c.i
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.c.i:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.c.i
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.c.i
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/serial_manager/fsl_component_serial_manager.s: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/serial_manager/fsl_component_serial_manager.c.s
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.s: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.c.s
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/serial_manager/fsl_component_serial_manager.s
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.s
 
 # target to generate assembly for a file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/serial_manager/fsl_component_serial_manager.c.s:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/serial_manager/fsl_component_serial_manager.c.s
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/serial_manager/fsl_component_serial_manager.c.s
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.c.s:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.c.s
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.c.s
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/serial_manager/fsl_component_serial_port_uart.obj: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/serial_manager/fsl_component_serial_port_uart.c.obj
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.obj: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.c.obj
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/serial_manager/fsl_component_serial_port_uart.obj
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.obj
 
 # target to build an object file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/serial_manager/fsl_component_serial_port_uart.c.obj:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/serial_manager/fsl_component_serial_port_uart.c.obj
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/serial_manager/fsl_component_serial_port_uart.c.obj
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.c.obj:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.c.obj
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.c.obj
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/serial_manager/fsl_component_serial_port_uart.i: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/serial_manager/fsl_component_serial_port_uart.c.i
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.i: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.c.i
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/serial_manager/fsl_component_serial_port_uart.i
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.i
 
 # target to preprocess a source file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/serial_manager/fsl_component_serial_port_uart.c.i:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/serial_manager/fsl_component_serial_port_uart.c.i
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/serial_manager/fsl_component_serial_port_uart.c.i
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.c.i:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.c.i
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.c.i
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/serial_manager/fsl_component_serial_port_uart.s: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/serial_manager/fsl_component_serial_port_uart.c.s
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.s: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.c.s
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/serial_manager/fsl_component_serial_port_uart.s
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.s
 
 # target to generate assembly for a file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/serial_manager/fsl_component_serial_port_uart.c.s:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/serial_manager/fsl_component_serial_port_uart.c.s
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/serial_manager/fsl_component_serial_port_uart.c.s
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.c.s:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.c.s
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.c.s
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.obj: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.c.obj
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.obj: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.c.obj
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.obj
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.obj
 
 # target to build an object file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.c.obj:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.c.obj
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.c.obj
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.c.obj:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.c.obj
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.c.obj
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.i: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.c.i
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.i: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.c.i
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.i
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.i
 
 # target to preprocess a source file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.c.i:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.c.i
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.c.i
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.c.i:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.c.i
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.c.i
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.s: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.c.s
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.s: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.c.s
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.s
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.s
 
 # target to generate assembly for a file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.c.s:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.c.s
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.c.s
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.c.s:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.c.s
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.c.s
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.obj: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.c.obj
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common_arm.obj: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common_arm.c.obj
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.obj
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common_arm.obj
 
 # target to build an object file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.c.obj:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.c.obj
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.c.obj
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common_arm.c.obj:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common_arm.c.obj
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common_arm.c.obj
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.i: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.c.i
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common_arm.i: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common_arm.c.i
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.i
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common_arm.i
 
 # target to preprocess a source file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.c.i:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.c.i
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.c.i
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common_arm.c.i:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common_arm.c.i
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common_arm.c.i
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.s: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.c.s
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common_arm.s: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common_arm.c.s
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.s
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common_arm.s
 
 # target to generate assembly for a file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.c.s:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.c.s
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.c.s
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common_arm.c.s:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common_arm.c.s
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common_arm.c.s
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.obj: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.c.obj
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_dmamux.obj: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_dmamux.c.obj
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.obj
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_dmamux.obj
 
 # target to build an object file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.c.obj:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.c.obj
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.c.obj
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_dmamux.c.obj:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_dmamux.c.obj
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_dmamux.c.obj
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.i: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.c.i
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_dmamux.i: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_dmamux.c.i
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.i
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_dmamux.i
 
 # target to preprocess a source file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.c.i:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.c.i
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.c.i
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_dmamux.c.i:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_dmamux.c.i
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_dmamux.c.i
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.s: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.c.s
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_dmamux.s: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_dmamux.c.s
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.s
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_dmamux.s
 
 # target to generate assembly for a file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.c.s:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.c.s
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.c.s
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_dmamux.c.s:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_dmamux.c.s
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_dmamux.c.s
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.obj: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.c.obj
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_edma.obj: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_edma.c.obj
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.obj
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_edma.obj
 
 # target to build an object file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.c.obj:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.c.obj
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.c.obj
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_edma.c.obj:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_edma.c.obj
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_edma.c.obj
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.i: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.c.i
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_edma.i: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_edma.c.i
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.i
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_edma.i
 
 # target to preprocess a source file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.c.i:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.c.i
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.c.i
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_edma.c.i:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_edma.c.i
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_edma.c.i
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.s: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.c.s
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_edma.s: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_edma.c.s
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.s
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_edma.s
 
 # target to generate assembly for a file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.c.s:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.c.s
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.c.s
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_edma.c.s:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_edma.c.s
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_edma.c.s
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.obj: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.c.obj
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio.obj: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio.c.obj
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.obj
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio.obj
 
 # target to build an object file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.c.obj:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.c.obj
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.c.obj
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio.c.obj:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio.c.obj
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio.c.obj
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.i: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.c.i
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio.i: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio.c.i
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.i
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio.i
 
 # target to preprocess a source file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.c.i:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.c.i
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.c.i
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio.c.i:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio.c.i
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio.c.i
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.s: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.c.s
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio.s: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio.c.s
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.s
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio.s
 
 # target to generate assembly for a file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.c.s:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.c.s
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.c.s
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio.c.s:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio.c.s
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio.c.s
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.obj: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.c.obj
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi.obj: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi.c.obj
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.obj
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi.obj
 
 # target to build an object file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.c.obj:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.c.obj
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.c.obj
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi.c.obj:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi.c.obj
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi.c.obj
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.i: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.c.i
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi.i: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi.c.i
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.i
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi.i
 
 # target to preprocess a source file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.c.i:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.c.i
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.c.i
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi.c.i:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi.c.i
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi.c.i
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.s: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.c.s
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi.s: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi.c.s
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.s
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi.s
 
 # target to generate assembly for a file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.c.s:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.c.s
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.c.s
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi.c.s:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi.c.s
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi.c.s
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/gcc/startup_MCIMX7U5_cm4.obj: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/gcc/startup_MCIMX7U5_cm4.S.obj
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi_edma.obj: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi_edma.c.obj
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/gcc/startup_MCIMX7U5_cm4.obj
-
-# target to build an object file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/gcc/startup_MCIMX7U5_cm4.S.obj:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/gcc/startup_MCIMX7U5_cm4.S.obj
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/gcc/startup_MCIMX7U5_cm4.S.obj
-
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.obj: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.c.obj
-
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.obj
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi_edma.obj
 
 # target to build an object file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.c.obj:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.c.obj
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.c.obj
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi_edma.c.obj:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi_edma.c.obj
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi_edma.c.obj
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.i: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.c.i
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi_edma.i: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi_edma.c.i
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.i
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi_edma.i
 
 # target to preprocess a source file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.c.i:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.c.i
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.c.i
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi_edma.c.i:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi_edma.c.i
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi_edma.c.i
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.s: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.c.s
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi_edma.s: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi_edma.c.s
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.s
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi_edma.s
 
 # target to generate assembly for a file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.c.s:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.c.s
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.c.s
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi_edma.c.s:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi_edma.c.s
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi_edma.c.s
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console/fsl_debug_console.obj: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console/fsl_debug_console.c.obj
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.obj: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.c.obj
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console/fsl_debug_console.obj
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.obj
 
 # target to build an object file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console/fsl_debug_console.c.obj:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console/fsl_debug_console.c.obj
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console/fsl_debug_console.c.obj
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.c.obj:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.c.obj
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.c.obj
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console/fsl_debug_console.i: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console/fsl_debug_console.c.i
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.i: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.c.i
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console/fsl_debug_console.i
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.i
 
 # target to preprocess a source file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console/fsl_debug_console.c.i:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console/fsl_debug_console.c.i
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console/fsl_debug_console.c.i
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.c.i:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.c.i
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.c.i
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console/fsl_debug_console.s: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console/fsl_debug_console.c.s
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.s: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.c.s
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console/fsl_debug_console.s
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.s
 
 # target to generate assembly for a file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console/fsl_debug_console.c.s:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console/fsl_debug_console.c.s
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console/fsl_debug_console.c.s
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.c.s:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.c.s
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.c.s
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_assert.obj: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_assert.c.obj
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpspi.obj: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpspi.c.obj
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_assert.obj
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpspi.obj
 
 # target to build an object file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_assert.c.obj:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_assert.c.obj
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_assert.c.obj
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpspi.c.obj:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpspi.c.obj
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpspi.c.obj
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_assert.i: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_assert.c.i
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpspi.i: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpspi.c.i
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_assert.i
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpspi.i
 
 # target to preprocess a source file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_assert.c.i:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_assert.c.i
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_assert.c.i
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpspi.c.i:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpspi.c.i
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpspi.c.i
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_assert.s: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_assert.c.s
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpspi.s: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpspi.c.s
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_assert.s
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpspi.s
 
 # target to generate assembly for a file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_assert.c.s:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_assert.c.s
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_assert.c.s
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpspi.c.s:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpspi.c.s
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpspi.c.s
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.obj: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.c.obj
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.obj: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.c.obj
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.obj
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.obj
 
 # target to build an object file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.c.obj:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.c.obj
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.c.obj
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.c.obj:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.c.obj
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.c.obj
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.i: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.c.i
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.i: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.c.i
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.i
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.i
 
 # target to preprocess a source file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.c.i:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.c.i
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.c.i
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.c.i:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.c.i
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.c.i
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.s: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.c.s
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.s: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.c.s
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.s
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.s
 
 # target to generate assembly for a file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.c.s:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.c.s
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.c.s
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.c.s:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.c.s
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.c.s
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/str/fsl_str.obj: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/str/fsl_str.c.obj
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.obj: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.c.obj
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/str/fsl_str.obj
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.obj
 
 # target to build an object file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/str/fsl_str.c.obj:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/str/fsl_str.c.obj
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/str/fsl_str.c.obj
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.c.obj:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.c.obj
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.c.obj
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/str/fsl_str.i: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/str/fsl_str.c.i
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.i: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.c.i
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/str/fsl_str.i
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.i
 
 # target to preprocess a source file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/str/fsl_str.c.i:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/str/fsl_str.c.i
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/str/fsl_str.c.i
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.c.i:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.c.i
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.c.i
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/str/fsl_str.s: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/str/fsl_str.c.s
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.s: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.c.s
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/str/fsl_str.s
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.s
 
 # target to generate assembly for a file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/str/fsl_str.c.s:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/str/fsl_str.c.s
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/str/fsl_str.c.s
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.c.s:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.c.s
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.c.s
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/croutine.obj: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/croutine.c.obj
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/gcc/startup_MCIMX7U5_cm4.obj: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/gcc/startup_MCIMX7U5_cm4.S.obj
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/croutine.obj
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/gcc/startup_MCIMX7U5_cm4.obj
 
 # target to build an object file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/croutine.c.obj:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/croutine.c.obj
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/croutine.c.obj
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/gcc/startup_MCIMX7U5_cm4.S.obj:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/gcc/startup_MCIMX7U5_cm4.S.obj
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/gcc/startup_MCIMX7U5_cm4.S.obj
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/croutine.i: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/croutine.c.i
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.obj: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.c.obj
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/croutine.i
-
-# target to preprocess a source file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/croutine.c.i:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/croutine.c.i
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/croutine.c.i
-
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/croutine.s: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/croutine.c.s
-
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/croutine.s
-
-# target to generate assembly for a file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/croutine.c.s:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/croutine.c.s
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/croutine.c.s
-
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/event_groups.obj: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/event_groups.c.obj
-
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/event_groups.obj
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.obj
 
 # target to build an object file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/event_groups.c.obj:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/event_groups.c.obj
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/event_groups.c.obj
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.c.obj:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.c.obj
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.c.obj
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/event_groups.i: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/event_groups.c.i
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.i: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.c.i
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/event_groups.i
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.i
 
 # target to preprocess a source file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/event_groups.c.i:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/event_groups.c.i
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/event_groups.c.i
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.c.i:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.c.i
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.c.i
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/event_groups.s: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/event_groups.c.s
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.s: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.c.s
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/event_groups.s
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.s
 
 # target to generate assembly for a file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/event_groups.c.s:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/event_groups.c.s
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/event_groups.c.s
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.c.s:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.c.s
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.c.s
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/list.obj: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/list.c.obj
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_assert.obj: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_assert.c.obj
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/list.obj
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_assert.obj
 
 # target to build an object file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/list.c.obj:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/list.c.obj
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/list.c.obj
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_assert.c.obj:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_assert.c.obj
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_assert.c.obj
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/list.i: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/list.c.i
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_assert.i: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_assert.c.i
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/list.i
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_assert.i
 
 # target to preprocess a source file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/list.c.i:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/list.c.i
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/list.c.i
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_assert.c.i:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_assert.c.i
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_assert.c.i
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/list.s: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/list.c.s
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_assert.s: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_assert.c.s
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/list.s
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_assert.s
 
 # target to generate assembly for a file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/list.c.s:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/list.c.s
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/list.c.s
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_assert.c.s:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_assert.c.s
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_assert.c.s
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.obj: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.c.obj
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_debug_console.obj: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_debug_console.c.obj
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.obj
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_debug_console.obj
 
 # target to build an object file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.c.obj:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.c.obj
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.c.obj
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_debug_console.c.obj:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_debug_console.c.obj
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_debug_console.c.obj
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.i: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.c.i
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_debug_console.i: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_debug_console.c.i
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.i
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_debug_console.i
 
 # target to preprocess a source file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.c.i:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.c.i
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.c.i
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_debug_console.c.i:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_debug_console.c.i
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_debug_console.c.i
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.s: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.c.s
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_debug_console.s: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_debug_console.c.s
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.s
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_debug_console.s
 
 # target to generate assembly for a file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.c.s:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.c.s
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.c.s
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_debug_console.c.s:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_debug_console.c.s
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_debug_console.c.s
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/portable/MemMang/heap_4.obj: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/portable/MemMang/heap_4.c.obj
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.obj: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.c.obj
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/portable/MemMang/heap_4.obj
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.obj
 
 # target to build an object file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/portable/MemMang/heap_4.c.obj:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/portable/MemMang/heap_4.c.obj
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/portable/MemMang/heap_4.c.obj
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.c.obj:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.c.obj
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.c.obj
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/portable/MemMang/heap_4.i: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/portable/MemMang/heap_4.c.i
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.i: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.c.i
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/portable/MemMang/heap_4.i
-
-# target to preprocess a source file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/portable/MemMang/heap_4.c.i:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/portable/MemMang/heap_4.c.i
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/portable/MemMang/heap_4.c.i
-
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/portable/MemMang/heap_4.s: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/portable/MemMang/heap_4.c.s
-
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/portable/MemMang/heap_4.s
-
-# target to generate assembly for a file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/portable/MemMang/heap_4.c.s:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/portable/MemMang/heap_4.c.s
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/portable/MemMang/heap_4.c.s
-
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/queue.obj: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/queue.c.obj
-
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/queue.obj
-
-# target to build an object file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/queue.c.obj:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/queue.c.obj
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/queue.c.obj
-
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/queue.i: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/queue.c.i
-
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/queue.i
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.i
 
 # target to preprocess a source file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/queue.c.i:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/queue.c.i
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/queue.c.i
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.c.i:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.c.i
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.c.i
 
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/queue.s: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/queue.c.s
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.s: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.c.s
 
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/queue.s
-
-# target to generate assembly for a file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/queue.c.s:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/queue.c.s
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/queue.c.s
-
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/stream_buffer.obj: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/stream_buffer.c.obj
-
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/stream_buffer.obj
-
-# target to build an object file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/stream_buffer.c.obj:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/stream_buffer.c.obj
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/stream_buffer.c.obj
-
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/stream_buffer.i: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/stream_buffer.c.i
-
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/stream_buffer.i
-
-# target to preprocess a source file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/stream_buffer.c.i:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/stream_buffer.c.i
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/stream_buffer.c.i
-
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/stream_buffer.s: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/stream_buffer.c.s
-
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/stream_buffer.s
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.s
 
 # target to generate assembly for a file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/stream_buffer.c.s:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/stream_buffer.c.s
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/stream_buffer.c.s
-
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/tasks.obj: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/tasks.c.obj
-
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/tasks.obj
-
-# target to build an object file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/tasks.c.obj:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/tasks.c.obj
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/tasks.c.obj
-
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/tasks.i: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/tasks.c.i
-
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/tasks.i
-
-# target to preprocess a source file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/tasks.c.i:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/tasks.c.i
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/tasks.c.i
-
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/tasks.s: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/tasks.c.s
-
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/tasks.s
-
-# target to generate assembly for a file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/tasks.c.s:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/tasks.c.s
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/tasks.c.s
-
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/timers.obj: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/timers.c.obj
-
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/timers.obj
-
-# target to build an object file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/timers.c.obj:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/timers.c.obj
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/timers.c.obj
-
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/timers.i: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/timers.c.i
-
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/timers.i
-
-# target to preprocess a source file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/timers.c.i:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/timers.c.i
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/timers.c.i
-
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/timers.s: C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/timers.c.s
-
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/timers.s
-
-# target to generate assembly for a file
-C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/timers.c.s:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/timers.c.s
-.PHONY : C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/timers.c.s
+C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.c.s:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.c.s
+.PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.c.s
 
 C_/git/imx7ulp-exploration/src/board.obj: C_/git/imx7ulp-exploration/src/board.c.obj
 
@@ -758,7 +623,7 @@ C_/git/imx7ulp-exploration/src/board.obj: C_/git/imx7ulp-exploration/src/board.c
 
 # target to build an object file
 C_/git/imx7ulp-exploration/src/board.c.obj:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/src/board.c.obj
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/src/board.c.obj
 .PHONY : C_/git/imx7ulp-exploration/src/board.c.obj
 
 C_/git/imx7ulp-exploration/src/board.i: C_/git/imx7ulp-exploration/src/board.c.i
@@ -767,7 +632,7 @@ C_/git/imx7ulp-exploration/src/board.i: C_/git/imx7ulp-exploration/src/board.c.i
 
 # target to preprocess a source file
 C_/git/imx7ulp-exploration/src/board.c.i:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/src/board.c.i
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/src/board.c.i
 .PHONY : C_/git/imx7ulp-exploration/src/board.c.i
 
 C_/git/imx7ulp-exploration/src/board.s: C_/git/imx7ulp-exploration/src/board.c.s
@@ -776,7 +641,7 @@ C_/git/imx7ulp-exploration/src/board.s: C_/git/imx7ulp-exploration/src/board.c.s
 
 # target to generate assembly for a file
 C_/git/imx7ulp-exploration/src/board.c.s:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/src/board.c.s
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/src/board.c.s
 .PHONY : C_/git/imx7ulp-exploration/src/board.c.s
 
 C_/git/imx7ulp-exploration/src/clock_config.obj: C_/git/imx7ulp-exploration/src/clock_config.c.obj
@@ -785,7 +650,7 @@ C_/git/imx7ulp-exploration/src/clock_config.obj: C_/git/imx7ulp-exploration/src/
 
 # target to build an object file
 C_/git/imx7ulp-exploration/src/clock_config.c.obj:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/src/clock_config.c.obj
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/src/clock_config.c.obj
 .PHONY : C_/git/imx7ulp-exploration/src/clock_config.c.obj
 
 C_/git/imx7ulp-exploration/src/clock_config.i: C_/git/imx7ulp-exploration/src/clock_config.c.i
@@ -794,7 +659,7 @@ C_/git/imx7ulp-exploration/src/clock_config.i: C_/git/imx7ulp-exploration/src/cl
 
 # target to preprocess a source file
 C_/git/imx7ulp-exploration/src/clock_config.c.i:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/src/clock_config.c.i
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/src/clock_config.c.i
 .PHONY : C_/git/imx7ulp-exploration/src/clock_config.c.i
 
 C_/git/imx7ulp-exploration/src/clock_config.s: C_/git/imx7ulp-exploration/src/clock_config.c.s
@@ -803,7 +668,7 @@ C_/git/imx7ulp-exploration/src/clock_config.s: C_/git/imx7ulp-exploration/src/cl
 
 # target to generate assembly for a file
 C_/git/imx7ulp-exploration/src/clock_config.c.s:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/src/clock_config.c.s
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/src/clock_config.c.s
 .PHONY : C_/git/imx7ulp-exploration/src/clock_config.c.s
 
 C_/git/imx7ulp-exploration/src/empty_rsc_table.obj: C_/git/imx7ulp-exploration/src/empty_rsc_table.c.obj
@@ -812,7 +677,7 @@ C_/git/imx7ulp-exploration/src/empty_rsc_table.obj: C_/git/imx7ulp-exploration/s
 
 # target to build an object file
 C_/git/imx7ulp-exploration/src/empty_rsc_table.c.obj:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/src/empty_rsc_table.c.obj
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/src/empty_rsc_table.c.obj
 .PHONY : C_/git/imx7ulp-exploration/src/empty_rsc_table.c.obj
 
 C_/git/imx7ulp-exploration/src/empty_rsc_table.i: C_/git/imx7ulp-exploration/src/empty_rsc_table.c.i
@@ -821,7 +686,7 @@ C_/git/imx7ulp-exploration/src/empty_rsc_table.i: C_/git/imx7ulp-exploration/src
 
 # target to preprocess a source file
 C_/git/imx7ulp-exploration/src/empty_rsc_table.c.i:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/src/empty_rsc_table.c.i
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/src/empty_rsc_table.c.i
 .PHONY : C_/git/imx7ulp-exploration/src/empty_rsc_table.c.i
 
 C_/git/imx7ulp-exploration/src/empty_rsc_table.s: C_/git/imx7ulp-exploration/src/empty_rsc_table.c.s
@@ -830,35 +695,35 @@ C_/git/imx7ulp-exploration/src/empty_rsc_table.s: C_/git/imx7ulp-exploration/src
 
 # target to generate assembly for a file
 C_/git/imx7ulp-exploration/src/empty_rsc_table.c.s:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/src/empty_rsc_table.c.s
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/src/empty_rsc_table.c.s
 .PHONY : C_/git/imx7ulp-exploration/src/empty_rsc_table.c.s
 
-C_/git/imx7ulp-exploration/src/freertos_hello.obj: C_/git/imx7ulp-exploration/src/freertos_hello.c.obj
+C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_slave.obj: C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_slave.c.obj
 
-.PHONY : C_/git/imx7ulp-exploration/src/freertos_hello.obj
+.PHONY : C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_slave.obj
 
 # target to build an object file
-C_/git/imx7ulp-exploration/src/freertos_hello.c.obj:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/src/freertos_hello.c.obj
-.PHONY : C_/git/imx7ulp-exploration/src/freertos_hello.c.obj
+C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_slave.c.obj:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_slave.c.obj
+.PHONY : C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_slave.c.obj
 
-C_/git/imx7ulp-exploration/src/freertos_hello.i: C_/git/imx7ulp-exploration/src/freertos_hello.c.i
+C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_slave.i: C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_slave.c.i
 
-.PHONY : C_/git/imx7ulp-exploration/src/freertos_hello.i
+.PHONY : C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_slave.i
 
 # target to preprocess a source file
-C_/git/imx7ulp-exploration/src/freertos_hello.c.i:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/src/freertos_hello.c.i
-.PHONY : C_/git/imx7ulp-exploration/src/freertos_hello.c.i
+C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_slave.c.i:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_slave.c.i
+.PHONY : C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_slave.c.i
 
-C_/git/imx7ulp-exploration/src/freertos_hello.s: C_/git/imx7ulp-exploration/src/freertos_hello.c.s
+C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_slave.s: C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_slave.c.s
 
-.PHONY : C_/git/imx7ulp-exploration/src/freertos_hello.s
+.PHONY : C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_slave.s
 
 # target to generate assembly for a file
-C_/git/imx7ulp-exploration/src/freertos_hello.c.s:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/src/freertos_hello.c.s
-.PHONY : C_/git/imx7ulp-exploration/src/freertos_hello.c.s
+C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_slave.c.s:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_slave.c.s
+.PHONY : C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_slave.c.s
 
 C_/git/imx7ulp-exploration/src/pin_mux.obj: C_/git/imx7ulp-exploration/src/pin_mux.c.obj
 
@@ -866,7 +731,7 @@ C_/git/imx7ulp-exploration/src/pin_mux.obj: C_/git/imx7ulp-exploration/src/pin_m
 
 # target to build an object file
 C_/git/imx7ulp-exploration/src/pin_mux.c.obj:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/src/pin_mux.c.obj
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/src/pin_mux.c.obj
 .PHONY : C_/git/imx7ulp-exploration/src/pin_mux.c.obj
 
 C_/git/imx7ulp-exploration/src/pin_mux.i: C_/git/imx7ulp-exploration/src/pin_mux.c.i
@@ -875,7 +740,7 @@ C_/git/imx7ulp-exploration/src/pin_mux.i: C_/git/imx7ulp-exploration/src/pin_mux
 
 # target to preprocess a source file
 C_/git/imx7ulp-exploration/src/pin_mux.c.i:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/src/pin_mux.c.i
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/src/pin_mux.c.i
 .PHONY : C_/git/imx7ulp-exploration/src/pin_mux.c.i
 
 C_/git/imx7ulp-exploration/src/pin_mux.s: C_/git/imx7ulp-exploration/src/pin_mux.c.s
@@ -884,7 +749,7 @@ C_/git/imx7ulp-exploration/src/pin_mux.s: C_/git/imx7ulp-exploration/src/pin_mux
 
 # target to generate assembly for a file
 C_/git/imx7ulp-exploration/src/pin_mux.c.s:
-	$(MAKE) -f CMakeFiles\freertos_hello.elf.dir\build.make CMakeFiles/freertos_hello.elf.dir/C_/git/imx7ulp-exploration/src/pin_mux.c.s
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/src/pin_mux.c.s
 .PHONY : C_/git/imx7ulp-exploration/src/pin_mux.c.s
 
 # Help Target
@@ -893,79 +758,64 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... freertos_hello.elf
+	@echo ... flexio_spi_edma_lpspi_transfer_slave.elf
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.obj
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.i
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.s
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/serial_manager/fsl_component_serial_manager.obj
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/serial_manager/fsl_component_serial_manager.i
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/serial_manager/fsl_component_serial_manager.s
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/serial_manager/fsl_component_serial_port_uart.obj
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/serial_manager/fsl_component_serial_port_uart.i
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/serial_manager/fsl_component_serial_port_uart.s
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.obj
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.i
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.s
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.obj
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.i
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.s
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.obj
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.i
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.s
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.obj
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.i
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.s
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.obj
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.i
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.s
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.obj
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.i
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.s
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/gcc/startup_MCIMX7U5_cm4.obj
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.obj
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.i
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.s
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console/fsl_debug_console.obj
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console/fsl_debug_console.i
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console/fsl_debug_console.s
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_assert.obj
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_assert.i
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_assert.s
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.obj
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.i
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.s
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/str/fsl_str.obj
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/str/fsl_str.i
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/str/fsl_str.s
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/croutine.obj
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/croutine.i
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/croutine.s
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/event_groups.obj
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/event_groups.i
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/event_groups.s
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/list.obj
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/list.i
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/list.s
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.obj
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.i
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.s
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/portable/MemMang/heap_4.obj
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/portable/MemMang/heap_4.i
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/portable/MemMang/heap_4.s
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/queue.obj
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/queue.i
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/queue.s
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/stream_buffer.obj
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/stream_buffer.i
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/stream_buffer.s
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/tasks.obj
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/tasks.i
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/tasks.s
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/timers.obj
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/timers.i
-	@echo ... C_/git/imx7ulp-exploration/SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos/freertos_kernel/timers.s
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.obj
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.i
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.s
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.obj
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.i
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.s
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.obj
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.i
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.s
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.obj
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.i
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.s
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common_arm.obj
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common_arm.i
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common_arm.s
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_dmamux.obj
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_dmamux.i
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_dmamux.s
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_edma.obj
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_edma.i
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_edma.s
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio.obj
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio.i
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio.s
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi.obj
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi.i
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi.s
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi_edma.obj
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi_edma.i
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi_edma.s
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.obj
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.i
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.s
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpspi.obj
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpspi.i
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpspi.s
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.obj
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.i
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.s
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.obj
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.i
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.s
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/gcc/startup_MCIMX7U5_cm4.obj
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.obj
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.i
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.s
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_assert.obj
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_assert.i
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_assert.s
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_debug_console.obj
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_debug_console.i
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_debug_console.s
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.obj
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.i
+	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.s
 	@echo ... C_/git/imx7ulp-exploration/src/board.obj
 	@echo ... C_/git/imx7ulp-exploration/src/board.i
 	@echo ... C_/git/imx7ulp-exploration/src/board.s
@@ -975,9 +825,9 @@ help:
 	@echo ... C_/git/imx7ulp-exploration/src/empty_rsc_table.obj
 	@echo ... C_/git/imx7ulp-exploration/src/empty_rsc_table.i
 	@echo ... C_/git/imx7ulp-exploration/src/empty_rsc_table.s
-	@echo ... C_/git/imx7ulp-exploration/src/freertos_hello.obj
-	@echo ... C_/git/imx7ulp-exploration/src/freertos_hello.i
-	@echo ... C_/git/imx7ulp-exploration/src/freertos_hello.s
+	@echo ... C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_slave.obj
+	@echo ... C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_slave.i
+	@echo ... C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_slave.s
 	@echo ... C_/git/imx7ulp-exploration/src/pin_mux.obj
 	@echo ... C_/git/imx7ulp-exploration/src/pin_mux.i
 	@echo ... C_/git/imx7ulp-exploration/src/pin_mux.s

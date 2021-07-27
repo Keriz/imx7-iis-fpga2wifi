@@ -1,6 +1,6 @@
 # CROSS COMPILER SETTING
 SET(CMAKE_SYSTEM_NAME Generic)
-CMAKE_MINIMUM_REQUIRED (VERSION 3.1.1)
+CMAKE_MINIMUM_REQUIRED (VERSION 3.10.0)
 
 # THE VERSION NUMBER
 SET (Tutorial_VERSION_MAJOR 1)
@@ -22,19 +22,18 @@ SET(EXECUTABLE_OUTPUT_PATH ${ProjDirPath}/${CMAKE_BUILD_TYPE})
 SET(LIBRARY_OUTPUT_PATH ${ProjDirPath}/${CMAKE_BUILD_TYPE})
 
 
-project(freertos_hello)
+project(flexio_spi_edma_lpspi_transfer_master)
 
-set(MCUX_SDK_PROJECT_NAME freertos_hello.elf)
+set(MCUX_SDK_PROJECT_NAME flexio_spi_edma_lpspi_transfer_master.elf)
 
 include(${ProjDirPath}/flags.cmake)
 
 include(${ProjDirPath}/config.cmake)
 
 add_executable(${MCUX_SDK_PROJECT_NAME} 
-"${ProjDirPath}/../freertos_hello.c"
+"${ProjDirPath}/../flexio_spi_edma_lpspi_transfer_master.c"
 "${ProjDirPath}/../pin_mux.c"
 "${ProjDirPath}/../pin_mux.h"
-"${ProjDirPath}/../FreeRTOSConfig.h"
 "${ProjDirPath}/../board.c"
 "${ProjDirPath}/../board.h"
 "${ProjDirPath}/../clock_config.c"
@@ -44,61 +43,57 @@ add_executable(${MCUX_SDK_PROJECT_NAME}
 )
 
 target_include_directories(${MCUX_SDK_PROJECT_NAME} PRIVATE
-    ${ProjDirPath}/.. debug
     ${ProjDirPath}/..
 )
 
 set(CMAKE_MODULE_PATH
-    ${ProjDirPath}/../../SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers
-    ${ProjDirPath}/../../SDK_2_9_0_EVK-MCIMX7ULP/rtos/freertos
-    ${ProjDirPath}/../../SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5
-    ${ProjDirPath}/../../SDK_2_9_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities
-    ${ProjDirPath}/../../SDK_2_9_0_EVK-MCIMX7ULP/components/uart
-    ${ProjDirPath}/../../SDK_2_9_0_EVK-MCIMX7ULP/components/serial_manager
-    ${ProjDirPath}/../../SDK_2_9_0_EVK-MCIMX7ULP/components/lists
-    ${ProjDirPath}/../../SDK_2_9_0_EVK-MCIMX7ULP/CMSIS/Include
+    ${ProjDirPath}/../../../../../../../../devices/MCIMX7U5/utilities/debug_console_lite
+    ${ProjDirPath}/../../../../../../../../devices/MCIMX7U5/drivers
+    ${ProjDirPath}/../../../../../../../../devices/MCIMX7U5
+    ${ProjDirPath}/../../../../../../../../components/uart
+    ${ProjDirPath}/../../../../../../../../components/lists
+    ${ProjDirPath}/../../../../../../../../CMSIS/Core/Include
+    ${ProjDirPath}/../../../../../../../../devices/MCIMX7U5/utilities
 )
 
 # include modules
-include(driver_port_MCIMX7U5)
+include(utility_debug_console_lite_MCIMX7U5)
 
-include(driver_gpio_MCIMX7U5)
+include(utility_assert_lite_MCIMX7U5)
+
+include(driver_dmamux_MCIMX7U5)
+
+include(driver_edma_MCIMX7U5)
+
+include(driver_port_MCIMX7U5)
 
 include(driver_clock_MCIMX7U5)
 
-include(middleware_freertos-kernel_heap_4_MCIMX7U5)
+include(driver_flexio_MCIMX7U5)
+
+include(driver_flexio_spi_MCIMX7U5)
+
+include(driver_flexio_spi_edma_MCIMX7U5)
+
+include(driver_lpspi_MCIMX7U5)
 
 include(driver_common_MCIMX7U5)
 
 include(device_MCIMX7U5_CMSIS_MCIMX7U5)
 
-include(utility_debug_console_MCIMX7U5)
-
 include(component_lpuart_adapter_MCIMX7U5)
 
-include(component_serial_manager_MCIMX7U5)
-
 include(component_lists_MCIMX7U5)
-
-include(component_serial_manager_uart_MCIMX7U5)
 
 include(driver_lpuart_MCIMX7U5)
 
 include(device_MCIMX7U5_startup_MCIMX7U5)
 
+include(driver_gpio_MCIMX7U5)
+
 include(driver_msmc_MCIMX7U5)
 
-include(utility_assert_MCIMX7U5)
-
-include(CMSIS_Include_core_cm4_MCIMX7U5)
-
-include(CMSIS_Include_common_MCIMX7U5)
-
-include(CMSIS_Include_dsp_MCIMX7U5)
-
-include(middleware_freertos-kernel_MCIMX7U5)
-
-include(middleware_freertos-kernel_extension_MCIMX7U5)
+include(CMSIS_Include_core_cm_MCIMX7U5)
 
 include(utilities_misc_utilities_MCIMX7U5)
 
