@@ -6,7 +6,7 @@ Using the NXP iMX 7 ULP devkit, we evaluate the feasibility, performance and pow
 
 ## Project planification
 
-[Gantt chart](https://view.monday.com/1453663162-e9185251b7c593d24864bfbab5e83f3e?r=use1)
+[Gantt chart](https://view.monday.com/1453663162-e9185251b7c593d24864bfbab5e83f3e?r=use1) (outdated)
 
 ## Installation and setup
 
@@ -53,6 +53,17 @@ Connect the JTAG 20 pin connector on the EVK to JLINK. Power the JLink adapter. 
 ### Execute code on STM32-Nucleo-MB1136 using STLINK (on-board debugger)
 
 Connect the STM32 board through USB. Build the STM32 FW using the task provided in the VS Workspace. Press F5 and run STM32 Cortex-M4 Debug configuration. 
+
+### Pin multiplexing
+
+Beware the uncorrect readme that has been provided in the src folder by NXP. FLEXIO0_1 and FLEXIO0_0 connection pads have been inverted. Please find the correct mapping below.
+
+|  FlexIO0  | Alternate function |                Net               |  LPSPI0  |
+|:---------:|:------------------:|:--------------------------------:|:--------:|
+| FLEXIO0_0 |   PTA16 I2C0_SCL   |    J8-6 / R189 short-c / TP27    |  SPI_CLK |
+| FLEXIO0_1 |   PTA17 I2C0_SDA   |    J8-5 / R188 short-c / TP25    | SPI_MOSI |
+| FLEXIO0_4 |  PTA20 BATT_ADC_IN |  J8-4 / R190 short-c / R22 pad 1 | SPI_MISO |
+| FLEXIO0_7 |   PTA23 ADC_INT#   | J8-3 / R191 short-c / R101 pad 1 |  SPI_CS  |
 
 ## Documentation
 
