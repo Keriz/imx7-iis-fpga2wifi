@@ -47,13 +47,13 @@ target_include_directories(${MCUX_SDK_PROJECT_NAME} PRIVATE
 )
 
 set(CMAKE_MODULE_PATH
-    ${ProjDirPath}/../../../../../../../../devices/MCIMX7U5/utilities/debug_console_lite
-    ${ProjDirPath}/../../../../../../../../devices/MCIMX7U5/drivers
-    ${ProjDirPath}/../../../../../../../../devices/MCIMX7U5
-    ${ProjDirPath}/../../../../../../../../components/uart
-    ${ProjDirPath}/../../../../../../../../components/lists
-    ${ProjDirPath}/../../../../../../../../CMSIS/Core/Include
-    ${ProjDirPath}/../../../../../../../../devices/MCIMX7U5/utilities
+    ${ProjDirPath}/../../SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite
+    ${ProjDirPath}/../../SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers
+    ${ProjDirPath}/../../SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5
+    ${ProjDirPath}/../../SDK_2_10_0_EVK-MCIMX7ULP/components/uart
+    ${ProjDirPath}/../../SDK_2_10_0_EVK-MCIMX7ULP/components/lists
+    ${ProjDirPath}/../../SDK_2_10_0_EVK-MCIMX7ULP/CMSIS/Core/Include
+    ${ProjDirPath}/../../SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities
 )
 
 # include modules
