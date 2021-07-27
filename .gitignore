@@ -1,4 +1,4 @@
-SDK_2_9_0_EVK-MCIMX7ULP/
+SDK_2_10_0_EVK-MCIMX7ULP/*
 images/
 documentation/BSP/Linux/*
 !documentation/BSP/Linux/L2.6.31_10.05.02_ER_docs.tar.gz
@@ -8,3 +8,4 @@ src/pin_mux.c
 .vscode/.cortex-debug.registers.state.json
 .vscode/.cortex-debug.peripherals.state.json
 stm32nucleo/spi/build/*
+.vscode/c_cpp_properties.json
