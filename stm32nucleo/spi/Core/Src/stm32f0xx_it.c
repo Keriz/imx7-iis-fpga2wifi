@@ -1,9 +1,9 @@
 /**
   ******************************************************************************
-  * @file    SPI/SPI_FullDuplex_ComPolling/Src/stm32f0xx_it.c
+  * @file    SPI/SPI_FullDuplex_ComIT/Src/stm32f0xx_it.c
   * @author  MCD Application Team
   * @brief   Main Interrupt Service Routines.
-  *          This file provides template for all exceptions handler and 
+  *          This file provides template for all exceptions handler and
   *          peripherals interrupt service routine.
   ******************************************************************************
   * @attention
@@ -27,7 +27,7 @@
   * @{
   */
 
-/** @addtogroup SPI_FullDuplex_ComPolling
+/** @addtogroup SPI_FullDuplex_ComIT
   * @{
   */
 
@@ -35,6 +35,9 @@
 /* Private define ------------------------------------------------------------*/
 /* Private macro -------------------------------------------------------------*/
 /* Private variables ---------------------------------------------------------*/
+/* SPI handler declared in "main.c" file */
+extern SPI_HandleTypeDef SpiHandle;
+
 /* Private function prototypes -----------------------------------------------*/
 /* Private functions ---------------------------------------------------------*/
 
@@ -100,6 +103,16 @@ void SysTick_Handler(void)
 /******************************************************************************/
 
 /**
+  * @brief  This function handles SPI interrupt request.
+  * @param  None
+  * @retval None
+  */
+void SPIx_IRQHandler(void)
+{
+  HAL_SPI_IRQHandler(&SpiHandle);
+}
+
+/**
   * @brief  This function handles PPP interrupt request.
   * @param  None
   * @retval None
@@ -110,7 +123,7 @@ void SysTick_Handler(void)
 
 /**
   * @}
-  */ 
+  */
 
 /**
   * @}

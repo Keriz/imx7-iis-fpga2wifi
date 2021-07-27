@@ -1,10 +1,10 @@
 /**
  ******************************************************************************
- * @file    SPI/SPI_FullDuplex_ComPolling/Src/main.c
+ * @file    SPI/SPI_FullDuplex_ComIT/Src/main.c
  * @author  MCD Application Team
  * @brief   This sample code shows how to use STM32F0xx SPI HAL API to transmit
  *          and receive a data buffer with a communication process based on
- *          Polling transfer.
+ *          Interrupt transfer.
  *          The communication is done using 2 Boards.
  ******************************************************************************
  * @attention
@@ -27,7 +27,7 @@
  * @{
  */
 
-/** @addtogroup SPI_FullDuplex_ComPolling
+/** @addtogroup SPI_FullDuplex_ComIT
  * @{
  */
 
@@ -43,7 +43,7 @@ SPI_HandleTypeDef SpiHandle;
 
 /* Buffer used for transmission */
 uint8_t aTxBuffer[] =
-    "****SPI - Two Boards communication based on Polling **** SPI Message "
+    "****SPI - Two Boards communication based on Interrupt **** SPI Message "
     "******** SPI Message ******** SPI Message ****";
 
 /* Buffer used for reception */
@@ -74,15 +74,15 @@ int main(void) {
      */
   HAL_Init();
 
-  /* Configure LED2, LED2 and LED2 */
+  /* Configure LED2 */
   BSP_LED_Init(LED2);
+
   /* Configure the system clock to 48 MHz */
   SystemClock_Config();
 
   /*##-1- Configure the SPI peripheral #######################################*/
   /* Set the SPI parameters */
   SpiHandle.Instance = SPIx;
-
   SpiHandle.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_256;
   SpiHandle.Init.Direction = SPI_DIRECTION_2LINES;
   SpiHandle.Init.CLKPhase = SPI_PHASE_1EDGE;
@@ -108,12 +108,12 @@ int main(void) {
   }
 
 #ifdef MASTER_BOARD
-  /* Configure push button */
+  /* Configure Tamper push button */
   BSP_PB_Init(BUTTON_USER, BUTTON_MODE_GPIO);
-  /* Wait for Button press before starting the Communication */
+  /* Wait for Tamper Button press before starting the Communication */
   while (BSP_PB_GetState(BUTTON_USER) != GPIO_PIN_RESET) {
     BSP_LED_Toggle(LED2);
-    HAL_Delay(100);
+    HAL_Delay(40);
   }
   BSP_LED_Off(LED2);
 #endif /* MASTER_BOARD */
@@ -121,48 +121,29 @@ int main(void) {
   /*##-2- Start the Full Duplex Communication process ########################*/
   /* While the SPI in TransmitReceive process, user can transmit data through
      "aTxBuffer" buffer & receive data through "aRxBuffer" */
-  /* Timeout is set to 5S */
+  if (HAL_SPI_TransmitReceive_IT(&SpiHandle, (uint8_t *)aTxBuffer,
+                                 (uint8_t *)aRxBuffer, BUFFERSIZE) != HAL_OK) {
+    /* Transfer error in transmission process */
+    Error_Handler();
+  }
 
-  switch (HAL_SPI_TransmitReceive(&SpiHandle, (uint8_t *)aTxBuffer,
-                                  (uint8_t *)aRxBuffer, BUFFERSIZE, 5000)) {
-    case HAL_OK:
-      /* Communication is completed ___________________________________________
-       */
-      /* Compare the sent and received buffers */
-      if (Buffercmp((uint8_t *)aTxBuffer, (uint8_t *)aRxBuffer, BUFFERSIZE)) {
-        /* Transfer error in transmission process */
-        Error_Handler();
-      }
-      /* Turn LED2 on: Transfer in transmission/Reception process is correct */
-      BSP_LED_On(LED2);
-      break;
+  /*##-3- Wait for the end of the transfer ###################################*/
+  /*  Before starting a new communication transfer, you need to check the
+     current state of the peripheral; if it�s busy you need to wait for the end
+     of current transfer before starting a new one. For simplicity reasons, this
+     example is just waiting till the end of the transfer, but application may
+     perform other tasks while transfer operation is ongoing. */
+  while (HAL_SPI_GetState(&SpiHandle) != HAL_SPI_STATE_READY) {
+  }
 
-    case HAL_TIMEOUT:
-      /* An Error Occur ______________________________________________________
-       */
-    case HAL_ERROR:
-      /* Call Timeout Handler */
-      Error_Handler();
-      break;
-    default:
-      break;
+  /*##-4- Compare the sent and received buffers ##############################*/
+  if (Buffercmp((uint8_t *)aTxBuffer, (uint8_t *)aRxBuffer, BUFFERSIZE)) {
+    /* Processing Error */
+    Error_Handler();
   }
 
   /* Infinite loop */
   while (1) {
-  }
-}
-
-/**
- * @brief  This function is executed in case of error occurrence.
- * @param  None
- * @retval None
- */
-static void Error_Handler(void) {
-  while (1) {
-    /* Turn LED2 on */
-    BSP_LED_Toggle(LED2);
-    HAL_Delay(1000);
   }
 }
 
@@ -205,6 +186,40 @@ static void SystemClock_Config(void) {
   RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV1;
   if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_1) != HAL_OK) {
     Error_Handler();
+  }
+}
+
+/**
+ * @brief  TxRx Transfer completed callback.
+ * @param  hspi: SPI handle
+ * @note   This example shows a simple way to report end of Interrupt TxRx
+ * transfer, and you can add your own implementation.
+ * @retval None
+ */
+void HAL_SPI_TxRxCpltCallback(SPI_HandleTypeDef *hspi) {
+  /* Turn LED on: Transfer in transmission/reception process is correct */
+  BSP_LED_On(LED2);
+}
+
+/**
+ * @brief  SPI error callbacks.
+ * @param  hspi: SPI handle
+ * @note   This example shows a simple way to report transfer error, and you can
+ *         add your own implementation.
+ * @retval None
+ */
+void HAL_SPI_ErrorCallback(SPI_HandleTypeDef *hspi) { Error_Handler(); }
+
+/**
+ * @brief  This function is executed in case of error occurrence.
+ * @param  None
+ * @retval None
+ */
+static void Error_Handler(void) {
+  while (1) {
+    /* Toggle LED2 */
+    BSP_LED_Toggle(LED2);
+    HAL_Delay(1000);
   }
 }
 

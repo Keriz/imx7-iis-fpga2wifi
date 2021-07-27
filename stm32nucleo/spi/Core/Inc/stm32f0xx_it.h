@@ -1,6 +1,6 @@
 /**
   ******************************************************************************
-  * @file    SPI/SPI_FullDuplex_ComPolling/Inc/stm32f0xx_it.h
+  * @file    SPI/SPI_FullDuplex_ComIT/Inc/stm32f0xx_it.h
   * @author  MCD Application Team
   * @brief   This file contains the headers of the interrupt handlers.
   ******************************************************************************
@@ -36,6 +36,7 @@ void HardFault_Handler(void);
 void SVC_Handler(void);
 void PendSV_Handler(void);
 void SysTick_Handler(void);
+void SPIx_IRQHandler(void);
 
 #ifdef __cplusplus
 }

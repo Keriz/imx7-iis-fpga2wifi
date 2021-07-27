@@ -1,6 +1,6 @@
 /**
   ******************************************************************************
-  * @file    SPI/SPI_FullDuplex_ComPolling/Inc/main.h
+  * @file    SPI/SPI_FullDuplex_ComIT/Inc/main.h
   * @author  MCD Application Team
   * @brief   Header for main.c module
   ******************************************************************************
@@ -26,7 +26,7 @@
 
 /* Exported types ------------------------------------------------------------*/
 /* Exported constants --------------------------------------------------------*/
-/* User can use this section to tailor SPIx instance used and associated
+/* User can use this section to tailor SPIx instance used and associated 
    resources */
 /* Definition for SPIx clock resources */
 #define SPIx                             SPI1
@@ -48,6 +48,10 @@
 #define SPIx_MOSI_PIN                    GPIO_PIN_5
 #define SPIx_MOSI_GPIO_PORT              GPIOB
 #define SPIx_MOSI_AF                     GPIO_AF0_SPI1
+
+/* Definition for SPIx's NVIC */
+#define SPIx_IRQn                        SPI1_IRQn
+#define SPIx_IRQHandler                  SPI1_IRQHandler
 
 /* Size of buffer */
 #define BUFFERSIZE                       (COUNTOF(aTxBuffer) - 1)
