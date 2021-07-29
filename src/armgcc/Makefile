@@ -110,17 +110,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named flexio_spi_edma_lpspi_transfer_slave.elf
+# Target rules for targets named flexio_spi_edma_lpspi_transfer_master.elf
 
 # Build rule for target.
-flexio_spi_edma_lpspi_transfer_slave.elf: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 flexio_spi_edma_lpspi_transfer_slave.elf
-.PHONY : flexio_spi_edma_lpspi_transfer_slave.elf
+flexio_spi_edma_lpspi_transfer_master.elf: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 flexio_spi_edma_lpspi_transfer_master.elf
+.PHONY : flexio_spi_edma_lpspi_transfer_master.elf
 
 # fast build rule for target.
-flexio_spi_edma_lpspi_transfer_slave.elf/fast:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/build
-.PHONY : flexio_spi_edma_lpspi_transfer_slave.elf/fast
+flexio_spi_edma_lpspi_transfer_master.elf/fast:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/build
+.PHONY : flexio_spi_edma_lpspi_transfer_master.elf/fast
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.obj: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.c.obj
 
@@ -128,7 +128,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/lists/fsl_compone
 
 # target to build an object file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.c.obj:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.c.obj
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.c.obj
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.c.obj
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.i: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.c.i
@@ -137,7 +137,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/lists/fsl_compone
 
 # target to preprocess a source file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.c.i:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.c.i
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.c.i
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.c.i
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.s: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.c.s
@@ -146,7 +146,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/lists/fsl_compone
 
 # target to generate assembly for a file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.c.s:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.c.s
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.c.s
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.c.s
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.obj: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.c.obj
@@ -155,7 +155,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_
 
 # target to build an object file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.c.obj:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.c.obj
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.c.obj
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.c.obj
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.i: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.c.i
@@ -164,7 +164,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_
 
 # target to preprocess a source file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.c.i:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.c.i
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.c.i
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.c.i
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.s: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.c.s
@@ -173,7 +173,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_
 
 # target to generate assembly for a file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.c.s:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.c.s
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.c.s
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/uart/fsl_adapter_lpuart.c.s
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.obj: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.c.obj
@@ -182,7 +182,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl
 
 # target to build an object file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.c.obj:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.c.obj
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.c.obj
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.c.obj
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.i: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.c.i
@@ -191,7 +191,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl
 
 # target to preprocess a source file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.c.i:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.c.i
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.c.i
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.c.i
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.s: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.c.s
@@ -200,7 +200,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl
 
 # target to generate assembly for a file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.c.s:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.c.s
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.c.s
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_clock.c.s
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.obj: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.c.obj
@@ -209,7 +209,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl
 
 # target to build an object file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.c.obj:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.c.obj
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.c.obj
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.c.obj
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.i: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.c.i
@@ -218,7 +218,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl
 
 # target to preprocess a source file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.c.i:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.c.i
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.c.i
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.c.i
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.s: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.c.s
@@ -227,7 +227,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl
 
 # target to generate assembly for a file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.c.s:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.c.s
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.c.s
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common.c.s
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common_arm.obj: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common_arm.c.obj
@@ -236,7 +236,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl
 
 # target to build an object file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common_arm.c.obj:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common_arm.c.obj
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common_arm.c.obj
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common_arm.c.obj
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common_arm.i: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common_arm.c.i
@@ -245,7 +245,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl
 
 # target to preprocess a source file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common_arm.c.i:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common_arm.c.i
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common_arm.c.i
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common_arm.c.i
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common_arm.s: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common_arm.c.s
@@ -254,7 +254,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl
 
 # target to generate assembly for a file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common_arm.c.s:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common_arm.c.s
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common_arm.c.s
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_common_arm.c.s
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_dmamux.obj: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_dmamux.c.obj
@@ -263,7 +263,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl
 
 # target to build an object file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_dmamux.c.obj:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_dmamux.c.obj
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_dmamux.c.obj
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_dmamux.c.obj
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_dmamux.i: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_dmamux.c.i
@@ -272,7 +272,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl
 
 # target to preprocess a source file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_dmamux.c.i:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_dmamux.c.i
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_dmamux.c.i
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_dmamux.c.i
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_dmamux.s: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_dmamux.c.s
@@ -281,7 +281,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl
 
 # target to generate assembly for a file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_dmamux.c.s:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_dmamux.c.s
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_dmamux.c.s
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_dmamux.c.s
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_edma.obj: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_edma.c.obj
@@ -290,7 +290,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl
 
 # target to build an object file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_edma.c.obj:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_edma.c.obj
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_edma.c.obj
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_edma.c.obj
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_edma.i: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_edma.c.i
@@ -299,7 +299,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl
 
 # target to preprocess a source file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_edma.c.i:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_edma.c.i
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_edma.c.i
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_edma.c.i
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_edma.s: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_edma.c.s
@@ -308,7 +308,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl
 
 # target to generate assembly for a file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_edma.c.s:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_edma.c.s
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_edma.c.s
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_edma.c.s
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio.obj: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio.c.obj
@@ -317,7 +317,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl
 
 # target to build an object file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio.c.obj:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio.c.obj
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio.c.obj
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio.c.obj
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio.i: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio.c.i
@@ -326,7 +326,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl
 
 # target to preprocess a source file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio.c.i:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio.c.i
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio.c.i
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio.c.i
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio.s: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio.c.s
@@ -335,7 +335,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl
 
 # target to generate assembly for a file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio.c.s:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio.c.s
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio.c.s
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio.c.s
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi.obj: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi.c.obj
@@ -344,7 +344,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl
 
 # target to build an object file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi.c.obj:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi.c.obj
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi.c.obj
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi.c.obj
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi.i: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi.c.i
@@ -353,7 +353,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl
 
 # target to preprocess a source file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi.c.i:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi.c.i
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi.c.i
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi.c.i
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi.s: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi.c.s
@@ -362,7 +362,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl
 
 # target to generate assembly for a file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi.c.s:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi.c.s
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi.c.s
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi.c.s
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi_edma.obj: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi_edma.c.obj
@@ -371,7 +371,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl
 
 # target to build an object file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi_edma.c.obj:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi_edma.c.obj
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi_edma.c.obj
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi_edma.c.obj
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi_edma.i: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi_edma.c.i
@@ -380,7 +380,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl
 
 # target to preprocess a source file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi_edma.c.i:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi_edma.c.i
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi_edma.c.i
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi_edma.c.i
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi_edma.s: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi_edma.c.s
@@ -389,7 +389,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl
 
 # target to generate assembly for a file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi_edma.c.s:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi_edma.c.s
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi_edma.c.s
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_flexio_spi_edma.c.s
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.obj: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.c.obj
@@ -398,7 +398,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl
 
 # target to build an object file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.c.obj:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.c.obj
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.c.obj
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.c.obj
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.i: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.c.i
@@ -407,7 +407,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl
 
 # target to preprocess a source file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.c.i:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.c.i
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.c.i
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.c.i
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.s: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.c.s
@@ -416,7 +416,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl
 
 # target to generate assembly for a file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.c.s:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.c.s
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.c.s
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_gpio.c.s
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpspi.obj: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpspi.c.obj
@@ -425,7 +425,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl
 
 # target to build an object file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpspi.c.obj:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpspi.c.obj
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpspi.c.obj
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpspi.c.obj
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpspi.i: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpspi.c.i
@@ -434,7 +434,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl
 
 # target to preprocess a source file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpspi.c.i:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpspi.c.i
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpspi.c.i
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpspi.c.i
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpspi.s: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpspi.c.s
@@ -443,7 +443,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl
 
 # target to generate assembly for a file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpspi.c.s:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpspi.c.s
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpspi.c.s
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpspi.c.s
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.obj: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.c.obj
@@ -452,7 +452,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl
 
 # target to build an object file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.c.obj:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.c.obj
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.c.obj
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.c.obj
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.i: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.c.i
@@ -461,7 +461,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl
 
 # target to preprocess a source file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.c.i:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.c.i
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.c.i
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.c.i
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.s: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.c.s
@@ -470,7 +470,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl
 
 # target to generate assembly for a file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.c.s:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.c.s
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.c.s
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_lpuart.c.s
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.obj: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.c.obj
@@ -479,7 +479,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl
 
 # target to build an object file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.c.obj:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.c.obj
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.c.obj
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.c.obj
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.i: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.c.i
@@ -488,7 +488,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl
 
 # target to preprocess a source file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.c.i:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.c.i
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.c.i
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.c.i
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.s: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.c.s
@@ -497,7 +497,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl
 
 # target to generate assembly for a file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.c.s:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.c.s
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.c.s
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/drivers/fsl_msmc.c.s
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/gcc/startup_MCIMX7U5_cm4.obj: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/gcc/startup_MCIMX7U5_cm4.S.obj
@@ -506,7 +506,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/gcc/startup
 
 # target to build an object file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/gcc/startup_MCIMX7U5_cm4.S.obj:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/gcc/startup_MCIMX7U5_cm4.S.obj
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/gcc/startup_MCIMX7U5_cm4.S.obj
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/gcc/startup_MCIMX7U5_cm4.S.obj
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.obj: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.c.obj
@@ -515,7 +515,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIM
 
 # target to build an object file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.c.obj:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.c.obj
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.c.obj
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.c.obj
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.i: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.c.i
@@ -524,7 +524,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIM
 
 # target to preprocess a source file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.c.i:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.c.i
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.c.i
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.c.i
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.s: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.c.s
@@ -533,7 +533,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIM
 
 # target to generate assembly for a file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.c.s:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.c.s
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.c.s
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/system_MCIMX7U5_cm4.c.s
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_assert.obj: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_assert.c.obj
@@ -542,7 +542,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/d
 
 # target to build an object file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_assert.c.obj:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_assert.c.obj
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_assert.c.obj
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_assert.c.obj
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_assert.i: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_assert.c.i
@@ -551,7 +551,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/d
 
 # target to preprocess a source file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_assert.c.i:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_assert.c.i
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_assert.c.i
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_assert.c.i
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_assert.s: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_assert.c.s
@@ -560,7 +560,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/d
 
 # target to generate assembly for a file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_assert.c.s:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_assert.c.s
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_assert.c.s
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_assert.c.s
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_debug_console.obj: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_debug_console.c.obj
@@ -569,7 +569,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/d
 
 # target to build an object file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_debug_console.c.obj:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_debug_console.c.obj
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_debug_console.c.obj
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_debug_console.c.obj
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_debug_console.i: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_debug_console.c.i
@@ -578,7 +578,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/d
 
 # target to preprocess a source file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_debug_console.c.i:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_debug_console.c.i
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_debug_console.c.i
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_debug_console.c.i
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_debug_console.s: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_debug_console.c.s
@@ -587,7 +587,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/d
 
 # target to generate assembly for a file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_debug_console.c.s:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_debug_console.c.s
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_debug_console.c.s
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/debug_console_lite/fsl_debug_console.c.s
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.obj: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.c.obj
@@ -596,7 +596,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/f
 
 # target to build an object file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.c.obj:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.c.obj
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.c.obj
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.c.obj
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.i: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.c.i
@@ -605,7 +605,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/f
 
 # target to preprocess a source file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.c.i:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.c.i
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.c.i
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.c.i
 
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.s: C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.c.s
@@ -614,7 +614,7 @@ C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/f
 
 # target to generate assembly for a file
 C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.c.s:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.c.s
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.c.s
 .PHONY : C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/utilities/fsl_sbrk.c.s
 
 C_/git/imx7ulp-exploration/src/board.obj: C_/git/imx7ulp-exploration/src/board.c.obj
@@ -623,7 +623,7 @@ C_/git/imx7ulp-exploration/src/board.obj: C_/git/imx7ulp-exploration/src/board.c
 
 # target to build an object file
 C_/git/imx7ulp-exploration/src/board.c.obj:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/src/board.c.obj
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/src/board.c.obj
 .PHONY : C_/git/imx7ulp-exploration/src/board.c.obj
 
 C_/git/imx7ulp-exploration/src/board.i: C_/git/imx7ulp-exploration/src/board.c.i
@@ -632,7 +632,7 @@ C_/git/imx7ulp-exploration/src/board.i: C_/git/imx7ulp-exploration/src/board.c.i
 
 # target to preprocess a source file
 C_/git/imx7ulp-exploration/src/board.c.i:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/src/board.c.i
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/src/board.c.i
 .PHONY : C_/git/imx7ulp-exploration/src/board.c.i
 
 C_/git/imx7ulp-exploration/src/board.s: C_/git/imx7ulp-exploration/src/board.c.s
@@ -641,7 +641,7 @@ C_/git/imx7ulp-exploration/src/board.s: C_/git/imx7ulp-exploration/src/board.c.s
 
 # target to generate assembly for a file
 C_/git/imx7ulp-exploration/src/board.c.s:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/src/board.c.s
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/src/board.c.s
 .PHONY : C_/git/imx7ulp-exploration/src/board.c.s
 
 C_/git/imx7ulp-exploration/src/clock_config.obj: C_/git/imx7ulp-exploration/src/clock_config.c.obj
@@ -650,7 +650,7 @@ C_/git/imx7ulp-exploration/src/clock_config.obj: C_/git/imx7ulp-exploration/src/
 
 # target to build an object file
 C_/git/imx7ulp-exploration/src/clock_config.c.obj:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/src/clock_config.c.obj
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/src/clock_config.c.obj
 .PHONY : C_/git/imx7ulp-exploration/src/clock_config.c.obj
 
 C_/git/imx7ulp-exploration/src/clock_config.i: C_/git/imx7ulp-exploration/src/clock_config.c.i
@@ -659,7 +659,7 @@ C_/git/imx7ulp-exploration/src/clock_config.i: C_/git/imx7ulp-exploration/src/cl
 
 # target to preprocess a source file
 C_/git/imx7ulp-exploration/src/clock_config.c.i:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/src/clock_config.c.i
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/src/clock_config.c.i
 .PHONY : C_/git/imx7ulp-exploration/src/clock_config.c.i
 
 C_/git/imx7ulp-exploration/src/clock_config.s: C_/git/imx7ulp-exploration/src/clock_config.c.s
@@ -668,7 +668,7 @@ C_/git/imx7ulp-exploration/src/clock_config.s: C_/git/imx7ulp-exploration/src/cl
 
 # target to generate assembly for a file
 C_/git/imx7ulp-exploration/src/clock_config.c.s:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/src/clock_config.c.s
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/src/clock_config.c.s
 .PHONY : C_/git/imx7ulp-exploration/src/clock_config.c.s
 
 C_/git/imx7ulp-exploration/src/empty_rsc_table.obj: C_/git/imx7ulp-exploration/src/empty_rsc_table.c.obj
@@ -677,7 +677,7 @@ C_/git/imx7ulp-exploration/src/empty_rsc_table.obj: C_/git/imx7ulp-exploration/s
 
 # target to build an object file
 C_/git/imx7ulp-exploration/src/empty_rsc_table.c.obj:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/src/empty_rsc_table.c.obj
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/src/empty_rsc_table.c.obj
 .PHONY : C_/git/imx7ulp-exploration/src/empty_rsc_table.c.obj
 
 C_/git/imx7ulp-exploration/src/empty_rsc_table.i: C_/git/imx7ulp-exploration/src/empty_rsc_table.c.i
@@ -686,7 +686,7 @@ C_/git/imx7ulp-exploration/src/empty_rsc_table.i: C_/git/imx7ulp-exploration/src
 
 # target to preprocess a source file
 C_/git/imx7ulp-exploration/src/empty_rsc_table.c.i:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/src/empty_rsc_table.c.i
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/src/empty_rsc_table.c.i
 .PHONY : C_/git/imx7ulp-exploration/src/empty_rsc_table.c.i
 
 C_/git/imx7ulp-exploration/src/empty_rsc_table.s: C_/git/imx7ulp-exploration/src/empty_rsc_table.c.s
@@ -695,35 +695,35 @@ C_/git/imx7ulp-exploration/src/empty_rsc_table.s: C_/git/imx7ulp-exploration/src
 
 # target to generate assembly for a file
 C_/git/imx7ulp-exploration/src/empty_rsc_table.c.s:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/src/empty_rsc_table.c.s
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/src/empty_rsc_table.c.s
 .PHONY : C_/git/imx7ulp-exploration/src/empty_rsc_table.c.s
 
-C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_slave.obj: C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_slave.c.obj
+C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_master.obj: C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_master.c.obj
 
-.PHONY : C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_slave.obj
+.PHONY : C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_master.obj
 
 # target to build an object file
-C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_slave.c.obj:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_slave.c.obj
-.PHONY : C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_slave.c.obj
+C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_master.c.obj:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_master.c.obj
+.PHONY : C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_master.c.obj
 
-C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_slave.i: C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_slave.c.i
+C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_master.i: C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_master.c.i
 
-.PHONY : C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_slave.i
+.PHONY : C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_master.i
 
 # target to preprocess a source file
-C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_slave.c.i:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_slave.c.i
-.PHONY : C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_slave.c.i
+C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_master.c.i:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_master.c.i
+.PHONY : C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_master.c.i
 
-C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_slave.s: C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_slave.c.s
+C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_master.s: C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_master.c.s
 
-.PHONY : C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_slave.s
+.PHONY : C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_master.s
 
 # target to generate assembly for a file
-C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_slave.c.s:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_slave.c.s
-.PHONY : C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_slave.c.s
+C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_master.c.s:
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_master.c.s
+.PHONY : C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_master.c.s
 
 C_/git/imx7ulp-exploration/src/pin_mux.obj: C_/git/imx7ulp-exploration/src/pin_mux.c.obj
 
@@ -731,7 +731,7 @@ C_/git/imx7ulp-exploration/src/pin_mux.obj: C_/git/imx7ulp-exploration/src/pin_m
 
 # target to build an object file
 C_/git/imx7ulp-exploration/src/pin_mux.c.obj:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/src/pin_mux.c.obj
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/src/pin_mux.c.obj
 .PHONY : C_/git/imx7ulp-exploration/src/pin_mux.c.obj
 
 C_/git/imx7ulp-exploration/src/pin_mux.i: C_/git/imx7ulp-exploration/src/pin_mux.c.i
@@ -740,7 +740,7 @@ C_/git/imx7ulp-exploration/src/pin_mux.i: C_/git/imx7ulp-exploration/src/pin_mux
 
 # target to preprocess a source file
 C_/git/imx7ulp-exploration/src/pin_mux.c.i:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/src/pin_mux.c.i
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/src/pin_mux.c.i
 .PHONY : C_/git/imx7ulp-exploration/src/pin_mux.c.i
 
 C_/git/imx7ulp-exploration/src/pin_mux.s: C_/git/imx7ulp-exploration/src/pin_mux.c.s
@@ -749,7 +749,7 @@ C_/git/imx7ulp-exploration/src/pin_mux.s: C_/git/imx7ulp-exploration/src/pin_mux
 
 # target to generate assembly for a file
 C_/git/imx7ulp-exploration/src/pin_mux.c.s:
-	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_slave.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_slave.elf.dir/C_/git/imx7ulp-exploration/src/pin_mux.c.s
+	$(MAKE) -f CMakeFiles\flexio_spi_edma_lpspi_transfer_master.elf.dir\build.make CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir/C_/git/imx7ulp-exploration/src/pin_mux.c.s
 .PHONY : C_/git/imx7ulp-exploration/src/pin_mux.c.s
 
 # Help Target
@@ -758,7 +758,7 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... flexio_spi_edma_lpspi_transfer_slave.elf
+	@echo ... flexio_spi_edma_lpspi_transfer_master.elf
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... C_/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/components/lists/fsl_component_generic_list.obj
@@ -825,9 +825,9 @@ help:
 	@echo ... C_/git/imx7ulp-exploration/src/empty_rsc_table.obj
 	@echo ... C_/git/imx7ulp-exploration/src/empty_rsc_table.i
 	@echo ... C_/git/imx7ulp-exploration/src/empty_rsc_table.s
-	@echo ... C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_slave.obj
-	@echo ... C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_slave.i
-	@echo ... C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_slave.s
+	@echo ... C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_master.obj
+	@echo ... C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_master.i
+	@echo ... C_/git/imx7ulp-exploration/src/flexio_spi_edma_lpspi_transfer_master.s
 	@echo ... C_/git/imx7ulp-exploration/src/pin_mux.obj
 	@echo ... C_/git/imx7ulp-exploration/src/pin_mux.i
 	@echo ... C_/git/imx7ulp-exploration/src/pin_mux.s
