@@ -68,7 +68,9 @@ Beware the uncorrect readme that has been provided in the src folder by NXP. FLE
 ## Documentation
 
 Extra material - https://polybox.ethz.ch/index.php/s/w6mQHlhTulI3gcB
-[NXP Quick start guide (online)](https://www.nxp.com/document/guide/get-started-with-the-mcimx7ulp-evk:GS-MCIMX7ULP-EVK) 
+[NXP Quick start guide (online)](https://www.nxp.com/document/guide/get-started-with-the-mcimx7ulp-evk:GS-MCIMX7ULP-EVK)
+
+[Training material](https://bootlin.com/docs/)
 
 [Gitlab (online)](https://iis-git.ee.ethz.ch/gthivolet/imx7ulp-exploration)
 
