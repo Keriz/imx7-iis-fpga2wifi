@@ -8,7 +8,7 @@ Using the NXP iMX 7 ULP devkit, we evaluate the feasibility, performance and pow
 
 [Gantt chart](https://view.monday.com/1453663162-e9185251b7c593d24864bfbab5e83f3e?r=use1) (outdated)
 
-## Installation and setup
+## Installation and setup for Cortex-M4 application development
 
 DISCLAIMER: the setup has been tested on Windows.
 
@@ -67,14 +67,18 @@ Beware the uncorrect readme that has been provided in the src folder by NXP. FLE
 
 ## Documentation
 
-Extra material - https://polybox.ethz.ch/index.php/s/w6mQHlhTulI3gcB
+A compilation of useful readings, board design files, and user guides is stored into the `documentation` folder.
+
+[Gitlab (online)](https://iis-git.ee.ethz.ch/gthivolet/imx7ulp-exploration)
+
 [NXP Quick start guide (online)](https://www.nxp.com/document/guide/get-started-with-the-mcimx7ulp-evk:GS-MCIMX7ULP-EVK)
 
 [Training material](https://bootlin.com/docs/)
 
-[Gitlab (online)](https://iis-git.ee.ethz.ch/gthivolet/imx7ulp-exploration)
+[Yocto training (course)](https://bootlin.com/doc/training/yocto/yocto-slides.pdf)
+
+[Yocto training (lab)](https://bootlin.com/doc/training/yocto/yocto-labs.pdf)
 
 ## Contact
 
-Author is Guillaume Thivolet (guillaume@glabs.ch) 
-Responsible PhD student:  Sergei Vostrikov (vsergei@iis.ee.ethz.ch)
+Reach out to me (Guillaume Thivolet) at <guillaume@glabs.ch>.
