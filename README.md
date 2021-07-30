@@ -73,11 +73,17 @@ A compilation of useful readings, board design files, and user guides is stored 
 
 [NXP Quick start guide (online)](https://www.nxp.com/document/guide/get-started-with-the-mcimx7ulp-evk:GS-MCIMX7ULP-EVK)
 
-[Training material](https://bootlin.com/docs/)
+Bootlin company:
 
-[Yocto training (course)](https://bootlin.com/doc/training/yocto/yocto-slides.pdf)
+- [Entry point for their training material](https://bootlin.com/docs/)
+- [Yocto training (course)](https://bootlin.com/doc/training/yocto/yocto-slides.pdf)
+- [Yocto training (lab)](https://bootlin.com/doc/training/yocto/yocto-labs.pdf)
 
-[Yocto training (lab)](https://bootlin.com/doc/training/yocto/yocto-labs.pdf)
+Toradex knowledge-base can be helpful for cross-checking your steps.
+
+- [Setup the environment for Embedded Linux application development](https://developer.toradex.com/knowledge-base/how-to-setup-environment-for-embedded-linux-application-development#Network_Connectivity)
+- [Hello World application on Embedded Linux](https://developer.toradex.com/knowledge-base/hello-world-application-on-embedded-linux)
+- [Linux SDKs](https://developer.toradex.com/knowledge-base/linux-sdks)
 
 ## Contact
 
