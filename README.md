@@ -2,7 +2,7 @@
 
 This project is conducted for the SoCDaML course exmanitation as a miniproject.
 
-Using the NXP iMX 7 ULP devkit, we evaluate the feasibility, performance and power consumption of a wearable ultrasound sensor with a power consumption under 1 Watt.
+Using the NXP i.MX 7 ULP devkit, we evaluate the feasibility, performance and power consumption of a wearable ultrasound sensor with a power consumption under 1 Watt.
 
 ## Project planification
 
@@ -18,7 +18,7 @@ Firstly, follow the [procedure](https://github.com/NXPmicro/mcux-sdk/blob/main/d
 
 Then, the user should install [Visual Studio Code](https://code.visualstudio.com/) (latest version) and the Cortex Debug extension on VSCode. ![Cortex Debug](readme-images/cortex.png)
 
-Open the preferences in VSCode (or use <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>P</kbd> and type pref), and append the following code. Modify accordingly to match your local installation.
+Open the preferences in VSCode (or use <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>P</kbd> and type `pref`), and append the following code. Modify accordingly to match your local installation.
 
 ```json
     "cortex-debug.JLinkGDBServerPath": "C:\\Program Files (x86)\\SEGGER\\JLink\\JLinkGDBServerCL.exe",
