@@ -6,7 +6,7 @@
         {
             "label": "buildM4IMX",
             "type": "shell",
-            "command": "cd src/armgcc;./build_debug.bat",
+            "command": "cd imx7m4/src/armgcc;./build_debug.bat",
             "group": {
                 "kind": "build",
                 "isDefault": true
