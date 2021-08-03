@@ -1,0 +1,3 @@
+C:/git/imx7ulp-exploration/src/armgcc/CMakeFiles/flexio_spi_edma_lpspi_transfer_master.elf.dir
+C:/git/imx7ulp-exploration/src/armgcc/CMakeFiles/edit_cache.dir
+C:/git/imx7ulp-exploration/src/armgcc/CMakeFiles/rebuild_cache.dir

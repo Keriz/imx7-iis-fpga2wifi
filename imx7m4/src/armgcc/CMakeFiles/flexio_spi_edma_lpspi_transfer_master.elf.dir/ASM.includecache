@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/git/imx7ulp-exploration/SDK_2_10_0_EVK-MCIMX7ULP/devices/MCIMX7U5/gcc/startup_MCIMX7U5_cm4.S
+
