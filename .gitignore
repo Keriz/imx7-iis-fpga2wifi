@@ -9,3 +9,4 @@ src/pin_mux.c
 .vscode/.cortex-debug.peripherals.state.json
 stm32nucleo/spi/build/*
 .vscode/c_cpp_properties.json
+wip.md
