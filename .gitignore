@@ -1,4 +1,5 @@
 SDK_2_10_0_EVK-MCIMX7ULP/*
+!images/fsl-image-machine-test-imx7ulpevk.wic.bz2
 images/
 documentation/BSP/Linux/*
 !documentation/BSP/Linux/L2.6.31_10.05.02_ER_docs.tar.gz
@@ -10,3 +11,4 @@ src/pin_mux.c
 stm32nucleo/spi/build/*
 .vscode/c_cpp_properties.json
 wip.md
+.vscode/.markdownlint.json
