@@ -1,18 +1,18 @@
-## Installing crosstool-ng (to build up our own cross-compiling toolchain)
+# Installing crosstool-ng (to build up our own cross-compiling toolchain)
 
-### Needed packages 
+## Needed packages
 
 `sudo apt install build-essential git autoconf bison flex texinfo help2man gawk \
 libtool-bin libncurses5-dev unzip`
 
-- Configure git 
+- Configure git
 
 ```bash
 git config user.name "NAME"
 git config user.email "EMAIL"
 ```
 
-- Copy crosstool-ng locally 
+- Copy crosstool-ng locally
 
 ```bash
 git clone https://github.com/crosstool-ng/crosstool-ng.git
@@ -36,7 +36,7 @@ make
 
 - To get help and then configure crossng for your architecture
 
-```bash 
+```bash
 ./ct-ng help 
 ./ct-ng menuconfig
 ```
@@ -46,14 +46,16 @@ make
 ```bash
 ./ct-ng build
 ```
+
 - Export toolchain (default build output path is `$HOME/x-tools/`) in your path
 
 ```bash
 export PATH=$HOME/x-tools/arm-imx7ulp-linux-uclibcgnueabihf/bin/:$PATH`
 ```
-## Yocto Project, toolchain installation
+<!-- markdownlint-disable MD025 -->
+# Yocto Project, toolchain installation
 
-TODO: cleanup apt-get command to remove unused packages
+- Install required packages (TODO: remove unused packages)
 
 ```bash
 sudo apt-get install gawk wget git-core diffstat unzip texinfo gcc-multilib \
@@ -62,7 +64,7 @@ xz-utils debianutils iputils-ping python3-git python3-jinja2 libegl1-mesa libsdl
 pylint3 xterm rsync curl
 ```
 
-(Extracted from bootlin yocto labs, this step may not be needed if the bin folder already exists)
+- Install the repo command, to run git commands on multiple repositories in one shot.
 
 ```bash
 mkdir ~/bin 
@@ -78,7 +80,7 @@ cd imx-yocto-bsp
 ```
 
 - Configure git on your host machine beforehand
-- From Yocto User Guide provided by NXP (YUG)
+- Pulled from Yocto User Guide provided by NXP (YUG), this downloads a manifest which contains all the repositories with the sub layers. Run the environnment with proper configuration variables and gives access to bitbake command and devtool. Be sure that the `MACHINE="imx7ulpevk"` is then properly configured in `build/conf/local.conf`. 
 
 ```bash
 repo init -u https://source.codeaurora.org/external/imx/imx-manifest \
@@ -89,7 +91,6 @@ DISTRO=fsl-imx-fb MACHINE=imx7ulpevk source imx-setup-release.sh
 
 - Accept EULA
 
-Make sure that the `MACHINE??="<yourmachine>"`  in `./build/conf/local.conf` is `imx7ulpevk`.
 I also commented out the unused packages in `./build/conf/bblayers.conf`. Here's my file:
 
 ```bash
@@ -128,22 +129,20 @@ BBLAYERS += "${BSPDIR}/sources/meta-openembedded/meta-filesystems"
 BBLAYERS += "${BSPDIR}/sources/meta-python2"
 ```
 
-- Now build the image using
+- Now build the image using bitbake (see images that can be built in the YUG)
 
 ```bash
 bitbake fsl-image-machine-test
 "WARNING: You are running bitbake under WSLv2, this works properly but you should optimize your VHDX file eventually to avoid running out of storage pace"
 ```
 
-
-
 - Grab a coffee and wait :)
 
 ## Flash the SD Card (my setup is using WSL)
 
-I recommend using dd for linux users or Balena Etcher for the Windows fellows.
+I recommend using dd for linux users (see below) or Balena Etcher for the Windows fellows.
 
-The image can be found in `./build/tmp/deploy/images/imx7ulpevk/fsl-image-machine-test-imx7ulpevk.wic.bz2`.     
+The image can be found in `./build/tmp/deploy/images/imx7ulpevk/fsl-image-machine-test-imx7ulpevk.wic.bz2`.
 
 - Copy the image on your windows mounted directory using `scp` (WINDOWS WSL ONLY) and then use Balena Etcher.
 
@@ -153,18 +152,62 @@ The image can be found in `./build/tmp/deploy/images/imx7ulpevk/fsl-image-machin
 bzcat <image_name>.wic.bz2 | sudo dd of=/dev/sd<partition> bs=1M conv=fsync
 ```
 
-## Set up the Ethernet communication and NFS on the board
+- Before powering up the board, verify that the DIP switches are configured so that the boot device is SD Card.
 
-Use PuTTY, Tera Term, minicom or picocom to start a UART communication (baudrate 115200) through USB.
+| DIP PIN | [0] | [1] | [2] | [3] |
+|:-------:|:---:|:---:|:---:|:---:|
+|  State  |  1  |  0  |  0  |  1  |
 
-Setup U-boot to mount the NFS (it will pass thoses arguments to the Linux Kernel)
+## Generate an SDK from the Yocto Project build environment
 
 ```bash
-setenv bootargs 'console=ttyS0,115200 root=/dev/nfs rw
-nfsroot=192.168.0.1:/nfs,nfsvers=3,tcp
-ip=192.168.0.100:::::usb0 g_ether.dev_addr=f8:dc:7a:00:00:02
-g_ether.host_addr=f8:dc:7a:00:00:01'
-setenv bootcmd 'mmc dev 0; devnum=${mmcdev}; setenv devtype mmc;
-mmc rescan; run loadimage; run findfdt; run mmcloados'
-saveenv
+DISTRO=fsl-imx-fb MACHINE=imx7ulpevk bitbake fsl-image-machine-test -c populate_sdk
+```
+
+- Returning to your previous build environment (access to the bitbake command)
+
+```bash
+source setup-environment <build-dir>
+```
+
+## Configure the Linux Kernel using menuconfig (add Wi-Fi support)
+
+- Now some extra steps are needed in order to use the proper driver in the Linux Kernel for the Wi-Fi. The i.MX7ULP-EVK REVB has the [1PJ](https://wireless.murata.com/type-1pj.html) module from Murata. The QCA9337 chipset from Qualcomm is supported through the Atheros [ATH10K driver](https://wireless.wiki.kernel.org/en/users/drivers/ath10k) available in the linux sources. Through menuconfig we'll make sure that the driver is included in the build. ([additional reference](https://community.toradex.com/t/adding-wifi-driver-to-the-kernel/4456/3))
+
+```bash
+bitbake -c menuconfig virtual/kernel
+```
+
+- Turn on the following options
+
+```bash
+Device Drivers
+  ->Network device support
+      -Wireless LAN
+        -> Atheros 802.11 ac (Y)
+          -> SDIO Support (Y)
+```
+
+- Recompile the kernel
+
+```bash
+bitbake -f -c compile virtual/kernel
+bitbake fsl-image-machine-test 
+```
+
+- Find your preferred endpoint to connect to..
+
+```bash
+connmanctl enable wifi
+connmanctl scan wifi
+connmanctl service
+```
+
+- Eventually, connect to the one you wish using its name given before!
+
+```bash
+connmanctl
+>agent on
+>connect wifi_*******_managed_psk
+>exit
 ```
