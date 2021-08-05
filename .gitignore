@@ -10,3 +10,10 @@ src/pin_mux.c
 stm32nucleo/spi/build/*
 .vscode/c_cpp_properties.json
 wip.md
+imx7a7/main.o
+imx7a7/fpga2wifi_bin
+imx7a7/src/oe-workdir
+imx7a7/src/oe-logs
+.gitignore
+imx7a7/oe-workdir
+imx7a7/oe-logs
