@@ -72,7 +72,7 @@ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 chmod a+x ~/bin/repo
 ```
 
-- Create a working directory to build your image
+- Create a working directory to build your image (base directory)
 
 ```bash
 mkdir imx-yocto-bsp

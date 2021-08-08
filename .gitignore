@@ -1,6 +1,10 @@
 SDK_2_10_0_EVK-MCIMX7ULP/*
+<<<<<<< HEAD
+images/*
+=======
 !images/fsl-image-machine-test-imx7ulpevk.wic.bz2
 images/
+>>>>>>> parent of dbb27b8 (Adding basic image including Wi-Fi drivers and the hello_world example (meta-fpga2wifi))
 documentation/BSP/Linux/*
 !documentation/BSP/Linux/L2.6.31_10.05.02_ER_docs.tar.gz
 src/armgcc/CMakeFiles
